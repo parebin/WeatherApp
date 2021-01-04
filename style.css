@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Body {
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+    
+}
+
+nav {
+    display: flex;
+    background-color: #F2EFEF;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    color: #3E3E3E;
+}
+
+.fa-cloud-sun {
+    margin : 1%;
+    font-size: 36px;
+    
+}
+
+
+h1 {
+    padding-left: 0.5%;
+    font-size: 2.5vw;
+    
+}
+#additem {
+    background-color: white;
+    padding: 0px;
+    width: 50%;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.40);
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+#addtext {
+    width: 85%;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+
+#addbutton {
+    width: 15%;
+    height: 100%;
+    border: none;
+    background: #3E3E3E;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#addbutton:hover {
+    background-color: #3e3e3e46;
+    color :#3E3E3E;
+    font-weight: bold;
+}
+
+
+
+.fa-redo-alt {
+    color: #3E3E3E;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.fa-redo-alt:hover {
+    transform: rotateZ(300deg);
+    transition: all 0.4s ease;
+
+}
+
+main {
+    height: 90%;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    color: #F2EFEF;
+
+}
+
+#date {
+    color: #F2EFEF;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom: 10vh;
+}
+
+.temps {
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+    
+
+}
+section{
+    width: 49%;
+    margin: auto;
+    padding: 20px;
+}
+.division {
+    height: 250px;
+    width: 3px;
+    background-color: #F2EFEF;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.40);
+}
+
+.location, .temperature {
+    height: 20vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.location h1 {
+    font-size: 40px;
+    margin-right: 10%;
+}
+
+.temperature {
+    flex-direction: column;
+}
+
+.meteo {
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.fa-thermometer-half {
+    font-size: 50px;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2{
+    font-size: 40px;
+}
+
+.meteoJ4 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    font-size: small;
+    text-align: center;
+
+}
+
+footer {
+    padding: 5px;
+    width: 100%;
+    background-color: #F2EFEF;
+    color: #3E3E3E;
+    text-align: center;
+    font-size: x-small;
+    position: fixed;
+    bottom: 0px;
+
+}

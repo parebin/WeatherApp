@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Météo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" crossorigin="anonymous" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        
+        <i class="fas fa-cloud-sun" id="menu-btn"></i>
+        <h1>MY METEO</h1>
+        <div id="additem">
+            <input id="addtext" type="text" placeholder="Indiquez une ville : New York, Tokyo, Paris ..."/>
+            <i class="fas fa-search-location" id="addbutton"></i>
+        </div>
+        
+        <i class="fas fa-redo-alt" id="refresh"></i>
+    </nav>
+    <main>
+        <div>
+            <div id="date"></div>
+        </div>
+        <div class="temps">
+            <section>
+                <div class="location">
+                    <h1 class="location-timezone">Timezone</h1>
+                    <div class="meteo">
+                        <p class="icone"></p>
+                        <div class="temperature-description">its friggin cold</div>
+                    </div>
+                    
+                </div>
+                <div class="temperature">
+                    <div class="degree-section">
+                    <H2 class="temperature-degree">--</H2>
+                    <span>ºC</span>
+                    <i class="fas fa-thermometer-half"></i>
+                    </div>
+                </div>
+                <div class="meteoJ4">
+                    <div class="meteoJ1">
+                        <div id="dateJ1">Demain</div>
+                        <div id="logoJ1"><img src="http://openweathermap.org/img/wn/01d.png" alt="icone"></img></div>
+                        <div id="tempJ1">--ºC</div>
+                    </div>
+                    <div class="meteoJ2">
+                        <div id="dateJ2">Vendredi</div>
+                        <div id="logoJ2"><img src="http://openweathermap.org/img/wn/01d.png" alt="icone"></img></div>
+                        <div id="tempJ2">--ºC</div>
+                    </div>
+                    <div class="meteoJ3">
+                        <div id="dateJ3">Vendredi</div>
+                        <div id="logoJ3"><img src="http://openweathermap.org/img/wn/01d.png" alt="icone"></img></div>
+                        <div id="tempJ3">--ºC</div>
+                    </div>
+                </div>
+            </section>
+            <div class="division"></div>
+            <section>
+                <div class="location">
+                    <h1 class="location-timezone" id="city2">City  </h1>
+                    <div class="meteo" id="meteo2">
+                        <p class="icone" id="icone2">--</p>
+                        <div class="temperature-description" id="temperature-description2"></div>
+                    </div>
+                    
+                </div>
+                <div class="temperature" id="temperature2">
+                    <div class="degree-section" id="degree-section2">
+                    <H2 class="temperature-degree" id="temperature-degree2"> --</H2>
+                    <span>ºC</span>
+                    <i class="fas fa-thermometer-half"></i>
+                    </div>
+                    
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>MY METEO© by Paul - 2020</footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
